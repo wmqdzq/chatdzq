@@ -1,0 +1,4 @@
+const _imports_2 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAPFJREFUWEftlMEOgjAMhlviY2oyUPSoPol4VFCW6GMaZhyRgNilbUi4bOd1/5ev7RBmPjhzPkSAaCAaiAaCBtLNbumaZmHvpdV8WJx6EsBkuQHE2gcjFLa6HiUQJtueAOHgyxFXdXV5/qsnATy9c4+uSADRD/f1zqWUxWALzDovAHAvgRiFgzvbW+lNiAx8L0sgpOFtdxmHA6EJZwN8LoYgtOEiAAoCGu+x1+Nwz3+Fs1rQLxqZGLwoCxcbIAez3bXgtKu3gCocmtCFqw10JrLcYJK8qF+OsWC8NeQ8pL0jHkJt0OQzMBVINBANRAOzG3gDAVtyIRpIykEAAAAASUVORK5CYII=";
+
+export { _imports_2 as _ };
+//# sourceMappingURL=bottom-arrow-07ec677f.mjs.map

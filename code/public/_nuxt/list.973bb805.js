@@ -1,0 +1,1 @@
+import{a as _,G as e}from"./entry.b3d0478f.js";import"./_commonjsHelpers.86de73f2.js";import"./_commonjs-dynamic-modules.302442b1.js";const t=_({__name:"list",setup(s){return(a,o)=>null}});const c=e(t,[["__scopeId","data-v-ead45a8f"]]);export{c as default};

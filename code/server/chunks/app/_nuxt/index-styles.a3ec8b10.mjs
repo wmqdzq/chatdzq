@@ -1,0 +1,6 @@
+const index_vue_vue_type_style_index_0_scoped_780d6e56_lang = ".home-action[data-v-780d6e56]{padding-bottom:35px;width:100%}.home-action .action-area[data-v-780d6e56]{display:flex;justify-content:center}.home-action .home-action-item[data-v-780d6e56]{background:#11171f;border-radius:8px;cursor:pointer;margin-right:20px;padding:24px 40px}.home-action .home-action-item[data-v-780d6e56]:last-child{background:#0090f7;margin-right:0}.home-action .home-action-item:last-child .home-action-item-name p[data-v-780d6e56]{color:#fff}.home-action .home-action-item:last-child .home-action-item-content[data-v-780d6e56]{color:#c2dafb}.home-action .home-action-item .home-action-item-name[data-v-780d6e56]{align-items:center;color:#fff;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:8px}.home-action .home-action-item .home-action-item-name img[data-v-780d6e56]{height:24px;margin-right:7px;width:24px}.home-action .home-action-item .home-action-item-name p[data-v-780d6e56]{color:#999;font-size:10px}.home-action .home-action-item .home-action-item-content[data-v-780d6e56]{color:#9ba5b1;font-size:14px;letter-spacing:1px}";
+
+const indexStyles_a3ec8b10 = [index_vue_vue_type_style_index_0_scoped_780d6e56_lang];
+
+export { indexStyles_a3ec8b10 as default };
+//# sourceMappingURL=index-styles.a3ec8b10.mjs.map

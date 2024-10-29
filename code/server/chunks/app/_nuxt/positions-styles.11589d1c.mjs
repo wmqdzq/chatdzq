@@ -1,0 +1,6 @@
+const positions_vue_vue_type_style_index_0_scoped_8a207604_lang = ".top[data-v-8a207604]{color:#1a1a1a;font-size:16px;font-weight:500}.content[data-v-8a207604],.top[data-v-8a207604]{width:100%}.content .bottom[data-v-8a207604]{justify-content:flex-end;width:500px}.content .bottom[data-v-8a207604],.content .bottom .btn[data-v-8a207604]{align-items:center;display:flex;position:relative}.content .bottom .btn[data-v-8a207604]{-webkit-text-fill-color:transparent;background:rgba(214,237,254,.4);background:linear-gradient(90deg,#0390f8,#be5dfb);-webkit-background-clip:text!important;border:1px solid #cadae5;border-radius:8px;cursor:pointer;height:32px;justify-content:center;margin-top:8px;width:134px}.content .bottom .btn img[data-v-8a207604]{height:18px;width:16px}.content .bottom .tag[data-v-8a207604]{align-items:center;background:linear-gradient(90deg,#ffe0a2,#ffb409);border-radius:12px 12px 12px 0;color:#1a1a1a;display:flex;font-size:12px;height:22px;padding:0 4px;position:absolute;right:-7%;top:-10%;z-index:1}.content .bottom .tag img[data-v-8a207604]{height:18px;width:16px}";
+
+const positionsStyles_11589d1c = [positions_vue_vue_type_style_index_0_scoped_8a207604_lang];
+
+export { positionsStyles_11589d1c as default };
+//# sourceMappingURL=positions-styles.11589d1c.mjs.map

@@ -1,0 +1,1 @@
+import{a as e,e as t}from"./entry.b3d0478f.js";import"./_commonjsHelpers.86de73f2.js";import"./_commonjs-dynamic-modules.302442b1.js";const c=e({__name:"index",setup(r){return t().replace({path:"/ai/chat"}),(a,n)=>null}});export{c as default};
