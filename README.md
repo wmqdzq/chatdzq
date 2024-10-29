@@ -1,3 +1,3 @@
-# chatdzq.com
+# www.chatdzq.cn
 
 # 点石科技
