@@ -970,15 +970,6 @@ const vueuse_head_plugin_D7WGfuP1A0 = defineNuxtPlugin((nuxtApp) => {
     };
   }
 });
-const __nuxt_page_meta$1a = {
-  layout: "workbench"
-};
-const __nuxt_page_meta$19 = {
-  layout: "workbench"
-};
-const __nuxt_page_meta$18 = {
-  layout: "workbench"
-};
 const __nuxt_page_meta$17 = {
   layout: "workbench"
 };
@@ -989,42 +980,42 @@ const __nuxt_page_meta$15 = {
   layout: "workbench"
 };
 const __nuxt_page_meta$14 = {
-  layout: "login"
+  layout: "workbench"
 };
 const __nuxt_page_meta$13 = {
   layout: "workbench"
 };
-const __nuxt_page_meta$12 = {};
-const __nuxt_page_meta$11 = {};
+const __nuxt_page_meta$12 = {
+  layout: "workbench"
+};
+const __nuxt_page_meta$11 = {
+  layout: "login"
+};
 const __nuxt_page_meta$10 = {
+  layout: "workbench"
+};
+const __nuxt_page_meta$$ = {};
+const __nuxt_page_meta$_ = {};
+const __nuxt_page_meta$Z = {
   layout: "detail",
   title: "AI写作"
 };
-const __nuxt_page_meta$$ = {
-  layout: "workbench"
-};
-const __nuxt_page_meta$_ = {
-  layout: "workbench"
-};
-const __nuxt_page_meta$Z = {};
 const __nuxt_page_meta$Y = {
   layout: "workbench"
 };
 const __nuxt_page_meta$X = {
   layout: "workbench"
 };
-const __nuxt_page_meta$W = {
-  layout: "detail",
-  title: "智能体对话"
-};
+const __nuxt_page_meta$W = {};
 const __nuxt_page_meta$V = {
-  layout: "backstage"
+  layout: "workbench"
 };
 const __nuxt_page_meta$U = {
-  layout: "backstage"
+  layout: "workbench"
 };
 const __nuxt_page_meta$T = {
-  layout: "backstage"
+  layout: "detail",
+  title: "智能体对话"
 };
 const __nuxt_page_meta$S = {
   layout: "backstage"
@@ -1036,7 +1027,7 @@ const __nuxt_page_meta$Q = {
   layout: "backstage"
 };
 const __nuxt_page_meta$P = {
-  layout: "login"
+  layout: "backstage"
 };
 const __nuxt_page_meta$O = {
   layout: "backstage"
@@ -1141,238 +1132,211 @@ const __nuxt_page_meta$1 = {};
 const __nuxt_page_meta = {};
 const _routes = [
   {
-    name: (__nuxt_page_meta$1a == null ? void 0 : __nuxt_page_meta$1a.name) ?? "ai-agent-addAgent",
-    path: (__nuxt_page_meta$1a == null ? void 0 : __nuxt_page_meta$1a.path) ?? "/ai/agent/addAgent",
-    children: [],
-    meta: __nuxt_page_meta$1a,
-    alias: (__nuxt_page_meta$1a == null ? void 0 : __nuxt_page_meta$1a.alias) || [],
-    redirect: (__nuxt_page_meta$1a == null ? void 0 : __nuxt_page_meta$1a.redirect) || void 0,
-    component: () => import('./_nuxt/addAgent-9e4c0934.mjs').then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$19 == null ? void 0 : __nuxt_page_meta$19.name) ?? "ai-agent",
-    path: (__nuxt_page_meta$19 == null ? void 0 : __nuxt_page_meta$19.path) ?? "/ai/agent",
-    children: [],
-    meta: __nuxt_page_meta$19,
-    alias: (__nuxt_page_meta$19 == null ? void 0 : __nuxt_page_meta$19.alias) || [],
-    redirect: (__nuxt_page_meta$19 == null ? void 0 : __nuxt_page_meta$19.redirect) || void 0,
-    component: () => import('./_nuxt/index-8187387f.mjs').then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$18 == null ? void 0 : __nuxt_page_meta$18.name) ?? "ai-agent-indexOld",
-    path: (__nuxt_page_meta$18 == null ? void 0 : __nuxt_page_meta$18.path) ?? "/ai/agent/indexOld",
-    children: [],
-    meta: __nuxt_page_meta$18,
-    alias: (__nuxt_page_meta$18 == null ? void 0 : __nuxt_page_meta$18.alias) || [],
-    redirect: (__nuxt_page_meta$18 == null ? void 0 : __nuxt_page_meta$18.redirect) || void 0,
-    component: () => import('./_nuxt/indexOld-5c4f0100.mjs').then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.name) ?? "ai-app-hr",
-    path: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.path) ?? "/ai/app/hr",
+    name: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.name) ?? "ai-agent-addAgent",
+    path: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.path) ?? "/ai/agent/addAgent",
     children: [],
     meta: __nuxt_page_meta$17,
     alias: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.alias) || [],
     redirect: (__nuxt_page_meta$17 == null ? void 0 : __nuxt_page_meta$17.redirect) || void 0,
-    component: () => import('./_nuxt/hr-08961b89.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/addAgent-51e6097d.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.name) ?? "ai-app-often",
-    path: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.path) ?? "/ai/app/often",
+    name: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.name) ?? "ai-agent",
+    path: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.path) ?? "/ai/agent",
     children: [],
     meta: __nuxt_page_meta$16,
     alias: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.alias) || [],
     redirect: (__nuxt_page_meta$16 == null ? void 0 : __nuxt_page_meta$16.redirect) || void 0,
-    component: () => import('./_nuxt/often-bc043a59.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-8187387f.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.name) ?? "ai-app-tool",
-    path: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.path) ?? "/ai/app/tool",
+    name: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.name) ?? "ai-agent-indexOld",
+    path: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.path) ?? "/ai/agent/indexOld",
     children: [],
     meta: __nuxt_page_meta$15,
     alias: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.alias) || [],
     redirect: (__nuxt_page_meta$15 == null ? void 0 : __nuxt_page_meta$15.redirect) || void 0,
-    component: () => import('./_nuxt/tool-51452fcf.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/indexOld-5c4f0100.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.name) ?? "ai-chat-creative",
-    path: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.path) ?? "/ai/chat/creative",
+    name: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.name) ?? "ai-app-hr",
+    path: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.path) ?? "/ai/app/hr",
     children: [],
     meta: __nuxt_page_meta$14,
     alias: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.alias) || [],
     redirect: (__nuxt_page_meta$14 == null ? void 0 : __nuxt_page_meta$14.redirect) || void 0,
-    component: () => import('./_nuxt/creative-429c62db.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/hr-08961b89.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.name) ?? "ai-chat",
-    path: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.path) ?? "/ai/chat",
+    name: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.name) ?? "ai-app-often",
+    path: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.path) ?? "/ai/app/often",
     children: [],
     meta: __nuxt_page_meta$13,
     alias: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.alias) || [],
     redirect: (__nuxt_page_meta$13 == null ? void 0 : __nuxt_page_meta$13.redirect) || void 0,
-    component: () => import('./_nuxt/index-d3493fb8.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/often-d0bf8fd1.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.name) ?? "ai-creative-components-highLevelWriting",
-    path: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.path) ?? "/ai/creative/components/highLevelWriting",
+    name: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.name) ?? "ai-app-tool",
+    path: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.path) ?? "/ai/app/tool",
     children: [],
     meta: __nuxt_page_meta$12,
     alias: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.alias) || [],
     redirect: (__nuxt_page_meta$12 == null ? void 0 : __nuxt_page_meta$12.redirect) || void 0,
-    component: () => import('./_nuxt/highLevelWriting-bb7a7b5c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/tool-f74dde1b.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.name) ?? "ai-creative-components-templateCenter",
-    path: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.path) ?? "/ai/creative/components/templateCenter",
+    name: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.name) ?? "ai-chat-creative",
+    path: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.path) ?? "/ai/chat/creative",
     children: [],
     meta: __nuxt_page_meta$11,
     alias: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.alias) || [],
     redirect: (__nuxt_page_meta$11 == null ? void 0 : __nuxt_page_meta$11.redirect) || void 0,
-    component: () => import('./_nuxt/templateCenter-00f815a7.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/creative-a79a5d23.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.name) ?? "ai-creative-detail",
-    path: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.path) ?? "/ai/creative/detail",
+    name: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.name) ?? "ai-chat",
+    path: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.path) ?? "/ai/chat",
     children: [],
     meta: __nuxt_page_meta$10,
     alias: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.alias) || [],
     redirect: (__nuxt_page_meta$10 == null ? void 0 : __nuxt_page_meta$10.redirect) || void 0,
-    component: () => import('./_nuxt/detail-4383c2ea.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-94f6defc.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.name) ?? "ai-creative",
-    path: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.path) ?? "/ai/creative",
+    name: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.name) ?? "ai-creative-components-highLevelWriting",
+    path: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.path) ?? "/ai/creative/components/highLevelWriting",
     children: [],
     meta: __nuxt_page_meta$$,
     alias: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.alias) || [],
     redirect: (__nuxt_page_meta$$ == null ? void 0 : __nuxt_page_meta$$.redirect) || void 0,
-    component: () => import('./_nuxt/index-07a7e40b.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/highLevelWriting-80d529fb.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.name) ?? "ai-creative-index0805",
-    path: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.path) ?? "/ai/creative/index0805",
+    name: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.name) ?? "ai-creative-components-templateCenter",
+    path: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.path) ?? "/ai/creative/components/templateCenter",
     children: [],
     meta: __nuxt_page_meta$_,
     alias: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.alias) || [],
     redirect: (__nuxt_page_meta$_ == null ? void 0 : __nuxt_page_meta$_.redirect) || void 0,
-    component: () => import('./_nuxt/index0805-ba4a99c1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/templateCenter-0bfc5d5e.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.name) ?? "ai-creative-modal-upload",
-    path: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.path) ?? "/ai/creative/modal/upload",
+    name: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.name) ?? "ai-creative-detail",
+    path: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.path) ?? "/ai/creative/detail",
     children: [],
     meta: __nuxt_page_meta$Z,
     alias: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.alias) || [],
     redirect: (__nuxt_page_meta$Z == null ? void 0 : __nuxt_page_meta$Z.redirect) || void 0,
-    component: () => import('./_nuxt/upload-3800cded.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/detail-b099c9be.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.name) ?? "ai-creative-record",
-    path: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.path) ?? "/ai/creative/record",
+    name: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.name) ?? "ai-creative",
+    path: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.path) ?? "/ai/creative",
     children: [],
     meta: __nuxt_page_meta$Y,
     alias: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.alias) || [],
     redirect: (__nuxt_page_meta$Y == null ? void 0 : __nuxt_page_meta$Y.redirect) || void 0,
-    component: () => import('./_nuxt/record-e0e10ba4.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-9c81f320.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.name) ?? "ai-employee",
-    path: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.path) ?? "/ai/employee",
+    name: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.name) ?? "ai-creative-index0805",
+    path: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.path) ?? "/ai/creative/index0805",
     children: [],
     meta: __nuxt_page_meta$X,
     alias: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.alias) || [],
     redirect: (__nuxt_page_meta$X == null ? void 0 : __nuxt_page_meta$X.redirect) || void 0,
-    component: () => import('./_nuxt/index-1580c68f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index0805-ba4a99c1.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.name) ?? "ai-employee-info",
-    path: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.path) ?? "/ai/employee/info",
+    name: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.name) ?? "ai-creative-modal-upload",
+    path: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.path) ?? "/ai/creative/modal/upload",
     children: [],
     meta: __nuxt_page_meta$W,
     alias: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.alias) || [],
     redirect: (__nuxt_page_meta$W == null ? void 0 : __nuxt_page_meta$W.redirect) || void 0,
-    component: () => import('./_nuxt/info-4d6fea00.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/upload-94260edb.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.name) ?? "ai-enterprise-build-config",
-    path: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.path) ?? "/ai/enterprise/build/config",
+    name: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.name) ?? "ai-creative-record",
+    path: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.path) ?? "/ai/creative/record",
     children: [],
     meta: __nuxt_page_meta$V,
     alias: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.alias) || [],
     redirect: (__nuxt_page_meta$V == null ? void 0 : __nuxt_page_meta$V.redirect) || void 0,
-    component: () => import('./_nuxt/index-e9f305a1.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/record-c54e544d.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.name) ?? "ai-enterprise-build-domain",
-    path: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.path) ?? "/ai/enterprise/build/domain",
+    name: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.name) ?? "ai-employee",
+    path: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.path) ?? "/ai/employee",
     children: [],
     meta: __nuxt_page_meta$U,
     alias: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.alias) || [],
     redirect: (__nuxt_page_meta$U == null ? void 0 : __nuxt_page_meta$U.redirect) || void 0,
-    component: () => import('./_nuxt/index-60eee77c.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-c58c343e.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.name) ?? "ai-enterprise-build-navigation",
-    path: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.path) ?? "/ai/enterprise/build/navigation",
+    name: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.name) ?? "ai-employee-info",
+    path: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.path) ?? "/ai/employee/info",
     children: [],
     meta: __nuxt_page_meta$T,
     alias: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.alias) || [],
     redirect: (__nuxt_page_meta$T == null ? void 0 : __nuxt_page_meta$T.redirect) || void 0,
-    component: () => import('./_nuxt/index-bb39a5b0.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/info-8630307d.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.name) ?? "ai-enterprise-build-recommend",
-    path: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.path) ?? "/ai/enterprise/build/recommend",
+    name: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.name) ?? "ai-enterprise-build-config",
+    path: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.path) ?? "/ai/enterprise/build/config",
     children: [],
     meta: __nuxt_page_meta$S,
     alias: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.alias) || [],
     redirect: (__nuxt_page_meta$S == null ? void 0 : __nuxt_page_meta$S.redirect) || void 0,
-    component: () => import('./_nuxt/index-bfefc2b3.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-76bbb1af.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.name) ?? "ai-enterprise-build-template",
-    path: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.path) ?? "/ai/enterprise/build/template",
+    name: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.name) ?? "ai-enterprise-build-domain",
+    path: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.path) ?? "/ai/enterprise/build/domain",
     children: [],
     meta: __nuxt_page_meta$R,
     alias: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.alias) || [],
     redirect: (__nuxt_page_meta$R == null ? void 0 : __nuxt_page_meta$R.redirect) || void 0,
-    component: () => import('./_nuxt/index-620c7b81.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-60eee77c.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.name) ?? "ai-enterprise-build-workbench-app",
-    path: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.path) ?? "/ai/enterprise/build/workbench/app",
+    name: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.name) ?? "ai-enterprise-build-navigation",
+    path: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.path) ?? "/ai/enterprise/build/navigation",
     children: [],
     meta: __nuxt_page_meta$Q,
     alias: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.alias) || [],
     redirect: (__nuxt_page_meta$Q == null ? void 0 : __nuxt_page_meta$Q.redirect) || void 0,
-    component: () => import('./_nuxt/app-00852ae8.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-bb39a5b0.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.name) ?? "ai-enterprise-build-workbench-deploy",
-    path: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.path) ?? "/ai/enterprise/build/workbench/deploy",
+    name: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.name) ?? "ai-enterprise-build-recommend",
+    path: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.path) ?? "/ai/enterprise/build/recommend",
     children: [],
     meta: __nuxt_page_meta$P,
     alias: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.alias) || [],
     redirect: (__nuxt_page_meta$P == null ? void 0 : __nuxt_page_meta$P.redirect) || void 0,
-    component: () => import('./_nuxt/deploy-e9157246.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-bfefc2b3.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.name) ?? "ai-enterprise-build-workbench",
-    path: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.path) ?? "/ai/enterprise/build/workbench",
+    name: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.name) ?? "ai-enterprise-build-template",
+    path: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.path) ?? "/ai/enterprise/build/template",
     children: [],
     meta: __nuxt_page_meta$O,
     alias: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.alias) || [],
     redirect: (__nuxt_page_meta$O == null ? void 0 : __nuxt_page_meta$O.redirect) || void 0,
-    component: () => import('./_nuxt/index-d359b972.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-620c7b81.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.name) ?? "ai-enterprise-build-workbench-list",
-    path: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.path) ?? "/ai/enterprise/build/workbench/list",
+    name: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.name) ?? "ai-enterprise-build-workbench-deploy",
+    path: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.path) ?? "/ai/enterprise/build/workbench/deploy",
     children: [],
     meta: __nuxt_page_meta$N,
     alias: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.alias) || [],
     redirect: (__nuxt_page_meta$N == null ? void 0 : __nuxt_page_meta$N.redirect) || void 0,
-    component: () => import('./_nuxt/list-3dd6187f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/deploy-b2661565.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$M == null ? void 0 : __nuxt_page_meta$M.name) ?? "ai-enterprise-build-workbench-modal-searchRobot",
@@ -1401,7 +1365,7 @@ const _routes = [
     meta: __nuxt_page_meta$K,
     alias: (__nuxt_page_meta$K == null ? void 0 : __nuxt_page_meta$K.alias) || [],
     redirect: (__nuxt_page_meta$K == null ? void 0 : __nuxt_page_meta$K.redirect) || void 0,
-    component: () => import('./_nuxt/talk-ace1aeed.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/talk-4cc358fb.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$J == null ? void 0 : __nuxt_page_meta$J.name) ?? "ai-hr-analyze",
@@ -1563,7 +1527,7 @@ const _routes = [
     meta: __nuxt_page_meta$s,
     alias: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.alias) || [],
     redirect: (__nuxt_page_meta$s == null ? void 0 : __nuxt_page_meta$s.redirect) || void 0,
-    component: () => import('./_nuxt/robot-af0f1875.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/robot-e1164518.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.name) ?? "ai-search-detail",
@@ -1572,7 +1536,7 @@ const _routes = [
     meta: __nuxt_page_meta$r,
     alias: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.alias) || [],
     redirect: (__nuxt_page_meta$r == null ? void 0 : __nuxt_page_meta$r.redirect) || void 0,
-    component: () => import('./_nuxt/detail-31a81d2f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/detail-7d643e42.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$q == null ? void 0 : __nuxt_page_meta$q.name) ?? "ai-search",
@@ -1590,7 +1554,7 @@ const _routes = [
     meta: __nuxt_page_meta$p,
     alias: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.alias) || [],
     redirect: (__nuxt_page_meta$p == null ? void 0 : __nuxt_page_meta$p.redirect) || void 0,
-    component: () => import('./_nuxt/testUpload-c8eab592.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/testUpload-1955d82e.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$o == null ? void 0 : __nuxt_page_meta$o.name) ?? "index",
@@ -1653,7 +1617,7 @@ const _routes = [
     meta: __nuxt_page_meta$i,
     alias: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.alias) || [],
     redirect: (__nuxt_page_meta$i == null ? void 0 : __nuxt_page_meta$i.redirect) || void 0,
-    component: () => import('./_nuxt/register-814d3a0a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/register-165d16f7.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$h == null ? void 0 : __nuxt_page_meta$h.name) ?? "login-userAgreement",
@@ -1671,7 +1635,7 @@ const _routes = [
     meta: __nuxt_page_meta$g,
     alias: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.alias) || [],
     redirect: (__nuxt_page_meta$g == null ? void 0 : __nuxt_page_meta$g.redirect) || void 0,
-    component: () => import('./_nuxt/accountModel-09657c44.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/accountModel-962e2c16.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$f == null ? void 0 : __nuxt_page_meta$f.name) ?? "manage-modal-nickname",
@@ -1698,7 +1662,7 @@ const _routes = [
     meta: __nuxt_page_meta$d,
     alias: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.alias) || [],
     redirect: (__nuxt_page_meta$d == null ? void 0 : __nuxt_page_meta$d.redirect) || void 0,
-    component: () => import('./_nuxt/pwd-50980682.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/pwd-8f00960a.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$c == null ? void 0 : __nuxt_page_meta$c.name) ?? "manage-modal-role",
@@ -1716,7 +1680,7 @@ const _routes = [
     meta: __nuxt_page_meta$b,
     alias: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.alias) || [],
     redirect: (__nuxt_page_meta$b == null ? void 0 : __nuxt_page_meta$b.redirect) || void 0,
-    component: () => import('./_nuxt/_id_-92a3fe7f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_id_-0d470360.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$a == null ? void 0 : __nuxt_page_meta$a.name) ?? "share-answer-code",
@@ -1770,7 +1734,7 @@ const _routes = [
     meta: __nuxt_page_meta$5,
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import('./_nuxt/_code_-afa87dad.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_code_-6e020f94.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "share-pk-code",
@@ -1779,7 +1743,7 @@ const _routes = [
     meta: __nuxt_page_meta$4,
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/_code_-e4aee11f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_code_-fb5252a6.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "share-qr-code",
@@ -1788,7 +1752,7 @@ const _routes = [
     meta: __nuxt_page_meta$3,
     alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
     redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import('./_nuxt/_code_-8c64e253.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/_code_-cf25cf6f.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "share-search-code",
@@ -1806,7 +1770,7 @@ const _routes = [
     meta: __nuxt_page_meta$1,
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/teamIndex-282a5b09.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/teamIndex-4edc2e80.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "userIndex",
@@ -1815,7 +1779,7 @@ const _routes = [
     meta: __nuxt_page_meta,
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/userIndex-d5eabae0.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/userIndex-e89408a9.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {
@@ -2229,8 +2193,8 @@ const getRouting = defineStore("layoutName", {
           this.configuration.logo = res.data.logo ? res.data.logo : disposition.logo;
           this.configuration.companyShortName = res.data.name ? res.data.name : disposition.companyShortName;
           this.configuration.homeLogo = res.data.navbarLogo ? res.data.navbarLogo : disposition.homeLogo;
-          this.configuration.privacyPolicy = res.data.privacyPolicy ? res.data.privacyPolicy : disposition.privacyPolicy;
-          this.configuration.userServiceLink = res.data.userAgreement ? res.data.userAgreement : disposition.userServiceLink;
+          this.configuration.privacyPolicy = "https://www.chatdzq.cn/docs/privacypolicy";
+          this.configuration.userServiceLink = "https:www.chatdzq.cn/docs/service";
           this.configuration.video = res.data.video ? res.data.video : disposition.video;
           this.configuration.favicon = res.data.logo ? res.data.logo : disposition.favicon;
           this.configuration.topUpLink = res.data.rechargeAgreement ? res.data.rechargeAgreement : disposition.topUpLink;
@@ -11969,6 +11933,10 @@ const axios = {
   //获取验证码图片（登录）
   captchaImage(data) {
     return fetchpost("/space/common/captcha/captchaImage", data);
+  },
+  //查询知识库信息列表
+  queryKnowledgeInfoBaseList(data) {
+    return fetchpost("/space/teamKnowledge/queryKnowledgeInfoBaseList", data);
   }
 };
 const { Message, Modal } = ipkg;
@@ -12196,6 +12164,8 @@ const plugins_gZVkQZouNK = defineNuxtPlugin((nuxtApp) => {
       apiUrl = "/space/ai/drawBatchChat";
     } else if (type === "web") {
       apiUrl = "/space/teamDataset/syncWebsiteData";
+    } else if (type === "portal") {
+      apiUrl = "/portal/ai/chat";
     }
     const abortCtrl = new AbortController();
     const signal = abortCtrl.signal;
@@ -12224,6 +12194,9 @@ const plugins_gZVkQZouNK = defineNuxtPlugin((nuxtApp) => {
       }
     }
     function createParamsData(params2) {
+      if (type === "portal") {
+        return params2;
+      }
       return {
         tntInstId: getToken("tntInstId"),
         requestToken: "",
@@ -12274,7 +12247,12 @@ const plugins_gZVkQZouNK = defineNuxtPlugin((nuxtApp) => {
     function processMessage(line, routing2, proxy3, callback2) {
       if (line.length === 0)
         return;
-      const jsonData = JSON.parse(line.substring(5)).data;
+      let jsonData;
+      if (line.startsWith("data:")) {
+        jsonData = JSON.parse(line.substring(5)).data;
+      } else {
+        jsonData = JSON.parse(line).data;
+      }
       handleJsonData(jsonData, routing2, proxy3, callback2);
     }
     function getToken(key) {
@@ -12622,23 +12600,23 @@ const _wrapIf = (component, props, slots) => {
   return { default: () => props ? h(component, props === true ? {} : props, slots) : h(Fragment, {}, slots) };
 };
 const layouts = {
-  aiapp: () => import('./_nuxt/aiapp-186e65af.mjs').then((m) => m.default || m),
-  backstage: () => import('./_nuxt/backstage-1e1b0588.mjs').then((m) => m.default || m),
-  brain: () => import('./_nuxt/brain-9d2c73cc.mjs').then((m) => m.default || m),
-  cbeautys: () => import('./_nuxt/cbeautys-84a893a8.mjs').then((m) => m.default || m),
-  default: () => import('./_nuxt/default-5e086564.mjs').then((m) => m.default || m),
-  detail: () => import('./_nuxt/detail-20437c9c.mjs').then((m) => m.default || m),
-  enterprise: () => import('./_nuxt/enterprise-e31bba7b.mjs').then((m) => m.default || m),
-  firm: () => import('./_nuxt/firm-20e0bdd7.mjs').then((m) => m.default || m),
-  home: () => import('./_nuxt/home-58d83c0c.mjs').then((m) => m.default || m),
-  index: () => import('./_nuxt/index-8bb201d4.mjs').then((m) => m.default || m),
-  knowledge: () => import('./_nuxt/knowledge-0d0f2d86.mjs').then((m) => m.default || m),
+  aiapp: () => import('./_nuxt/aiapp-73df14a3.mjs').then((m) => m.default || m),
+  backstage: () => import('./_nuxt/backstage-8c125df5.mjs').then((m) => m.default || m),
+  brain: () => import('./_nuxt/brain-90d2c2d5.mjs').then((m) => m.default || m),
+  cbeautys: () => import('./_nuxt/cbeautys-26c0c4cc.mjs').then((m) => m.default || m),
+  default: () => import('./_nuxt/default-6eaf6b8f.mjs').then((m) => m.default || m),
+  detail: () => import('./_nuxt/detail-019d92b8.mjs').then((m) => m.default || m),
+  enterprise: () => import('./_nuxt/enterprise-adf3e45e.mjs').then((m) => m.default || m),
+  firm: () => import('./_nuxt/firm-4bea6837.mjs').then((m) => m.default || m),
+  home: () => import('./_nuxt/home-0ee27530.mjs').then((m) => m.default || m),
+  index: () => import('./_nuxt/index-1e3b99e0.mjs').then((m) => m.default || m),
+  knowledge: () => import('./_nuxt/knowledge-324ae4d8.mjs').then((m) => m.default || m),
   login: () => import('./_nuxt/login-a0472863.mjs').then((m) => m.default || m),
   mobile: () => import('./_nuxt/mobile-dd2396b2.mjs').then((m) => m.default || m),
-  noleft: () => import('./_nuxt/noleft-15fc951d.mjs').then((m) => m.default || m),
+  noleft: () => import('./_nuxt/noleft-6ffd273d.mjs').then((m) => m.default || m),
   qrcode: () => import('./_nuxt/qrcode-f9870d3a.mjs').then((m) => m.default || m),
-  robot: () => import('./_nuxt/robot-a2a356c4.mjs').then((m) => m.default || m),
-  workbench: () => import('./_nuxt/workbench-4d478df7.mjs').then((m) => m.default || m)
+  robot: () => import('./_nuxt/robot-54c34cee.mjs').then((m) => m.default || m),
+  workbench: () => import('./_nuxt/workbench-f2d9ab14.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -14042,113 +14020,6 @@ _sfc_main$2.setup = (props, ctx) => {
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
 const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["__scopeId", "data-v-5a59c4ba"]]);
-const titleList = [
-  {
-    titleCn: "登录",
-    titleEn: "登录",
-    url: "/login",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "注册",
-    titleEn: "注册",
-    url: "/login/register",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "忘记密码",
-    titleEn: "忘记密码",
-    url: "/login/forget",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "隐私政策",
-    titleEn: "隐私政策",
-    url: "/login/privacy",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "用户协议",
-    titleEn: "用户协议",
-    url: "/login/userAgreement",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "开通会员",
-    titleEn: "开通会员",
-    url: "/member",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "企业/团队管理",
-    titleEn: "企业/团队管理",
-    url: "/manage/team",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "账号管理",
-    titleEn: "账号管理",
-    url: "/manage/account",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "点石科技爱晚亭AI企业服务|企业知识库、人工智能，AIGC，chatgpt大模型应用",
-    titleEn: "点石科技爱晚亭AI企业服务|企业知识库、人工智能，AIGC，chatgpt大模型应用",
-    url: "/",
-    keywords: "企业知识库，机器人，人工智能，Ai应用，chatgpt大模型,智能客服，智慧营销，智能HR，AiGC",
-    description: "爱晚亭AI应用平台，致力做全球领先的Aⅰ智能服务商，为企业提供AI智能应用+数字营销的综合解决方案，如Ai助手、智能客服、智慧营销等，赋能企业快速使用各AI应用解决生产、生活的问题，实现企业降本增效赚钱省钱。"
-  },
-  {
-    titleCn: "AI创作",
-    titleEn: "AI创作",
-    url: "/robot/creative",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "知识库",
-    titleEn: "知识库",
-    url: "/knowledge",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "AI应用",
-    titleEn: "AI应用",
-    url: "/app",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "全部用户",
-    titleEn: "全部用户",
-    url: "/app/member/allUser",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "权益中心",
-    titleEn: "权益中心",
-    url: "/equity",
-    keywords: "",
-    description: ""
-  },
-  {
-    titleCn: "AI对话",
-    titleEn: "AI对话",
-    url: "/ai/chat",
-    keywords: "",
-    description: ""
-  }
-];
 const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   __name: "app",
   __ssrInlineRender: true,
@@ -14170,70 +14041,6 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     } else {
       locale.value = "zh";
     }
-    const changeTitle = () => {
-      let metaView = "";
-      var os = function() {
-        var ua = "", isWindowsPhone = /(?:Windows Phone)/.test(ua), isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone, isAndroid = /(?:Android)/.test(ua), isFireFox = /(?:Firefox)/.test(ua), isTablet = /(?:iPad|PlayBook)/.test(ua) || isAndroid && !/(?:Mobile)/.test(ua) || isFireFox && /(?:Tablet)/.test(ua), isPhone = /(?:iPhone)/.test(ua) && !isTablet, isPc = !isPhone && !isAndroid && !isSymbian;
-        return {
-          isTablet,
-          isPhone,
-          isAndroid,
-          isPc
-        };
-      }();
-      if (os.isAndroid || os.isPhone) {
-        if (window.screen.width > 600) {
-          metaView = "width=device-width, user-scalable=yes, initial-scale=0.6, maxmum-scale=0.7, minimum-scale=0.6";
-        } else {
-          metaView = "width=device-width, user-scalable=yes, initial-scale=0.3, maxmum-scale=1.0, minimum-scale=0.3";
-        }
-      } else if (os.isTablet) {
-        metaView = "width=device-width, user-scalable=yes, initial-scale=0.6, maxmum-scale=0.7, minimum-scale=0.6";
-      } else if (os.isPc) {
-        metaView = "width=device-width, user-scalable=yes, initial-scale=1.0, maxmum-scale=1.0, minimum-scale=1.0";
-      }
-      useHead({
-        title: routing.configuration.companyShortNameEn,
-        meta: [
-          { hid: "keywords", name: "keywords", content: "企业知识库，机器人，人工智能，Ai应用，chatgpt大模型,智能客服，智慧营销，智能HR，AiGC" },
-          { hid: "description", name: "description", content: routing.configuration.companyShortName + "AI应用平台，致力做全球领先的Aⅰ智能服务商，为企业提供AI智能应用+数字营销的综合解决方案，如Ai助手、智能客服、智慧营销等，赋能企业快速使用各AI应用解决生产、生活的问题，实现企业降本增效赚钱省钱。" },
-          {
-            name: "viewport",
-            content: metaView
-          }
-        ]
-      });
-      if (routers.currentRoute.value.path.indexOf("/share") > -1) {
-        useHead({
-          title: routing.configuration.companyShortNameEn,
-          meta: [
-            {
-              name: "viewport",
-              content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-            }
-          ]
-        });
-        return;
-      }
-      titleList.forEach((item) => {
-        if (item.url === routers.currentRoute.value.path) {
-          useHead({
-            title: item.titleCn,
-            meta: [
-              { hid: "keywords", name: "keywords", content: item.keywords },
-              { hid: "description", name: "description", content: item.description },
-              {
-                name: "viewport",
-                content: metaView
-              }
-            ]
-          });
-        }
-      });
-      routing.setIsLoad(false);
-      routing.abortReadingStream();
-      routing.resetStream();
-    };
     const versionCheck = async () => {
       proxy2.$versionCheck();
       if (useCookie("authtoken").value && useCookie("authtoken").value.loginCode) {
@@ -14255,7 +14062,6 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       }
     }, { immediate: true });
     watch(() => routers.currentRoute.value.path, (newValue) => {
-      changeTitle();
       versionCheck();
     }, { immediate: true });
     return (_ctx, _push, _parent, _attrs) => {
@@ -14264,11 +14070,11 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       const _component_topUp = __nuxt_component_2;
       _push(`<div${ssrRenderAttrs(mergeProps({
         class: unref(locale) == "en" ? "page-en" : ""
-      }, _attrs))} data-v-70d9fe97>`);
+      }, _attrs))} data-v-f0d34b2a>`);
       _push(ssrRenderComponent(_component_NuxtLayout, null, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<div data-v-70d9fe97${_scopeId}>`);
+            _push2(`<div data-v-f0d34b2a${_scopeId}>`);
             _push2(ssrRenderComponent(_component_NuxtPage, null, null, _parent2, _scopeId));
             _push2(`</div>`);
           } else {
@@ -14295,7 +14101,7 @@ _sfc_main$1.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
-const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-70d9fe97"]]);
+const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-f0d34b2a"]]);
 const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,

@@ -1,1 +1,0 @@
-import{a as e,i as t,o}from"./entry.b3d0478f.js";import"./_commonjsHelpers.86de73f2.js";import"./_commonjs-dynamic-modules.302442b1.js";const m=e({__name:"result",setup(r){return(a,n)=>(o(),t("div"))}});export{m as default};
