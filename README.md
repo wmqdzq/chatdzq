@@ -83,4 +83,9 @@ server {
 nginx -s reload
 ```
 
-# 使用域名访问，不用加端口，根据不同云服务器配置相对应的安全组端口和白名单。
+## 使用域名访问，不用加端口，根据不同云服务器配置相对应的安全组端口和白名单。
+
+## 进入工具链管理后台，设置可信域名，完成AI站点配置
+```shell
+https://cloud.dzq.com/ai/enterprise/developer
+```
