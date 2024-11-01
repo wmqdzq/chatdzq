@@ -29,3 +29,51 @@ chmod 775 run.sh
 
 
 ![index](./images/index.png)
+
+
+
+## 安装nginx
+## 申请域名证书下载到配置目录
+
+## aws.conf
+```shell
+upstream work.chatdzq.cn {  
+    server 127.0.0.1:3000 weight=1;
+}
+
+server {
+    listen 443 ssl;
+    # 修改 xxx.xxx.com 为你的域名
+    server_name xxx.xxx.com;
+
+    # 域名证书更具实际存储地址修改
+    ssl_certificate /etc/nginx/conf.d/server.crt;
+    ssl_certificate_key /etc/nginx/conf.d/server.key;
+
+    client_max_body_size 1024M;
+
+    # 流式处理支持
+    proxy_cache off;  # 关闭缓存
+    proxy_buffering off;  # 关闭代理缓冲
+    chunked_transfer_encoding on;  # 开启分块传输编码
+    tcp_nopush on;  # 开启TCP NOPUSH选项，禁止Nagle算法
+    tcp_nodelay on;  # 开启TCP NODELAY选项，禁止延迟ACK算法
+    keepalive_timeout 300;  # 设定keep-alive超时时间为65秒s
+
+    location / {
+		proxy_pass http://work.chatdzq.cn;
+		proxy_set_header Host $host:$server_port;
+		proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+    # 修改 xxxx.txt 为你的文件名称
+    location /xxxx.txt
+        {
+        # 上传文件的地址。权限修改 chmod 775 xxxx.txt
+        alias /home/xxxx.txt;
+        }
+
+}
+
+
+```
