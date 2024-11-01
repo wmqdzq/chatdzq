@@ -17,7 +17,13 @@ git clone git@github.com:wmqdzq/chatdzq.git
 
 ## 启动命令
 ```shell
-pm2 start ecosystem.config.js
+
+# 进入 code 目录
+chmod 775 download.sh
+chmod 775 run.sh
+
+./run.sh
+
 ```
 ### 默认端口3000
 
