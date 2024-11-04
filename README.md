@@ -3,10 +3,21 @@
 # 点石科技
 ChatDZQ隶属于福建点石网络科技有限公司，致力通过开源的大语言模型(LLM)应用开发创新平台。企业开发人员可以快速搭建生产级的生成式AI的应用。即使是非技术人员，也可以参与到AI应用的定义和数据运营过程中，全面提升企业智能化水平。产品支持企业基于私有知识库训练数字员工与数字分身，智能客服、智能质检等多种场景，帮助企业实现AI智能化升级。
 
+## 
+购买创建一台服务器，ubuntu 系统22.04
+登录服务器
 
 ## 环境准备 pm2
 ```shell
+# 默认到/home 路径执行
 curl -o /home/ecs_pm2.sh https://chatdzq-hz.oss-cn-hangzhou.aliyuncs.com/code/shell/ecs_env/ecs_pm2.sh && chmod +x /home/ecs_pm2.sh && /home/ecs_pm2.sh
+
+# 环境检查 
+# 服务器重新连接，检查环境是否安装。
+pm2 -v
+# 返回版本信息
+5.4.2 
+# 环境安装成功
 
 ```
 
@@ -27,7 +38,7 @@ chmod 775 run.sh
 ```
 ### 默认端口3000
 
-
+ip:3000 访问对应的网址
 ![index](./images/index.png)
 
 
@@ -83,9 +94,16 @@ server {
 nginx -s reload
 ```
 
-## 使用域名访问，不用加端口，根据不同云服务器配置相对应的安全组端口和白名单。
+## 去掉端口，使用域名访问是否正常访问。
 
-## 进入工具链管理后台，设置可信域名，完成AI站点配置
-```shell
-https://cloud.dzq.com/ai/enterprise/developer
-```
+
+访问工具链管理后台，https://cloud.dzq.com 注册账号。
+设置-开发者接口-设置可信域名
+下载文件放域名根目录，在设置可信域名页面校验是否配置成功。
+提示：已设置，完成校验
+![index](./images/01.png)
+
+
+
+## 最后访问：自己配置的域名使用。
+![index](./images/02.png)
