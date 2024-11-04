@@ -48,7 +48,7 @@ ip:3000 访问对应的网址
 
 ## aws.conf
 ```shell
-upstream work.chatdzq.cn {  
+upstream api_service {  
     server 127.0.0.1:3000 weight=1;
 }
 
@@ -72,7 +72,7 @@ server {
     keepalive_timeout 300;  # 设定keep-alive超时时间为65秒s
 
     location / {
-		proxy_pass http://work.chatdzq.cn;
+		proxy_pass http://api_service;
 		proxy_set_header Host $host:$server_port;
 		proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
